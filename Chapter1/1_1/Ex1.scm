@@ -5,7 +5,7 @@
 (+ (* 2 4) (- 4 6))                  ;6
 (define a 3)                         ;3
 (define b (+ a 1))                   ;4
-(+ a b(* a b))                       ;17
+(+ a b(* a b))                       ;19
 (= a b)                              ;false
 (if (and (> b a) (< b (* a b)))      ;4
     b
