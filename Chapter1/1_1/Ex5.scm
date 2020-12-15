@@ -5,7 +5,7 @@
 
 (test 0 (p))
 
-For applicative order evaluation (test 0 (p)) will evaluate as a recursive loop. 
+Applicative order evaluation (test 0 (p)) will evaluate as a recursive loop. 
 Because AOE evaluates the operators and operands first, it will first attempt to 
 evaluate (p) which will call the function that calls itself thus producing the result (p)
 and further calling itself indefinitely. For normal order evaluation, a simplification will
