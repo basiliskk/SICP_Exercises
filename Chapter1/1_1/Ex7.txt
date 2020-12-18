@@ -1,0 +1,6 @@
+The precision for computing the square roots of small numbers is low because of our error 
+threshold being at 0.001 which is actually quite a large error when talking about the
+square roots of numbers < 1. As for the lack of preciison with computing square roots for 
+large numbers, the reason the procedure fails their is because of the limitations in the 
+memory capacity for scheme with large numbers. It is also that with large numbers error  
+of about 0.001 can yield large differences between the outputted sqrt and the actual sqrt. 
